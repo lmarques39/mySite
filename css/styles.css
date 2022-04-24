@@ -1,0 +1,156 @@
+/******************* TAGS *********************/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: burlywood;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Merrywheather', sans-serif;
+    color:  #66BFBF;
+}
+
+h2 {
+
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    color:  #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+    margin: 10px;
+
+}
+
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+hr{
+    margin: 50px auto 50px auto;
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+/**************** CLASSES ******************************/
+
+.intro{
+    width: 35%;
+    margin: auto;
+}
+
+.top-container{
+    /* background-image: linear-gradient(to bottom left, rgb(255, 174, 0),rgb(93, 34, 34)); */
+    /* background-image: linear-gradient(#00bfff,rgb(68, 43, 6)); */
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;    
+}
+
+.middle-container{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    padding: 50px 0 20px 0;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50;
+}
+
+.profphoto{
+    width: 10%;
+}
+
+.profile{
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+.computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+.w-develop{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skills{
+    padding-top: 10px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.my-name{
+    color: #EAF6F6;
+    margin-bottom: 0;
+}
+
+.final-description{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
