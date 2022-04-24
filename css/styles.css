@@ -30,7 +30,11 @@ a {
     font-family: 'Montserrat', sans-serif;
     color:#11999E;
     margin: 10px;
+    text-decoration: none;
+}
 
+a:hover{
+    color: #EAF6F6
 }
 
 p{
@@ -117,6 +121,7 @@ hr{
 }
 
 .my-name{
+    font-size: 75%;
     color: #EAF6F6;
     margin-bottom: 0;
 }
